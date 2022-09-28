@@ -1,0 +1,226 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+
+----
+.field{
+    width: 30%;
+    margin: 50px auto;
+}
+legend{
+    font-size: 25px;
+}
+form{
+    width: 80%;
+    margin: 0 auto;
+}
+input{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px
+}
+input [type = radio]{
+    padding: 10px;
+}
+input [type = submit]{
+  width: 50%;
+
+}
+/* ----navbar----- */
+nav{
+  box-shadow: 4px 4px 10px black;
+  border-radius: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 20px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  .logout,#time{
+    float: right;
+  }
+  #time{
+    font-size: 20px;
+   margin-top: 15px;
+   color: white;
+   margin-right: 10px;
+  }
+  .Dtitle{
+    text-align: center;
+    margin-top: 30px;
+  }
+  .title{
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .table{
+    box-shadow: 10px 10px 8px black;
+    border-radius: 5px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    width: 30%
+  }
+   td{
+    font-size: 18px;
+    margin-top: 20px;
+  }
+th{
+    color: black;
+    font-size: 20px;
+}
+
+
+/* changePassword */
+.changeForm{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 50px auto;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.changeForm input{
+    width: 80%;
+    border-radius: 5px;
+}
+.lable{
+    width: 100%;
+  
+}
+label{
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.changeForm input[type = button]{
+    font-size: 15px;
+    width: 20%;
+    color: black;
+    background-color: rgb(0, 255, 251);
+}
+.changeForm input[type = button]:hover{
+    background-color: rebeccapurple;
+    color: white;
+}
+input:focus{
+  border: none;
+  padding: 10px;
+    box-shadow: 4px 4px 12px black;
+    outline: none;
+}
+.loginLink{
+  /* text-decoration: none; */
+  color:chartreuse
+}
+
+/* -----weather----- */
+.weather{
+  border: 1px solid black;
+  display: block;
+  position: absolute;
+  margin-top: -220px;
+  margin-left: 5px;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  box-shadow: 4px 4px 10px black;
+
+}
+
+/* ------gif------- */
+.gif{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  object-fit: cover;
+  margin-left: 5px;
+box-shadow: 4px 4px 10px black;
+border-radius: 10px;
+}
+
+/* ----table custom row */
+_.row{
+  width: 200px;
+}
+
+
+
+/* -----task---- */
+.taskInput{
+  width: 20%;
+}
+.btnSubmit{
+  color: white;
+  text-align: center;
+  width: 20%;
+  text-decoration: none;
+  background-color: green;
+  padding: 5px;
+}
+.uncomplete{
+  margin: 10px;
+  text-align: center;
+}
+.list-group {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  border-radius: 0.375rem;
+}
+.list-group-item {
+  list-style: none;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.btnDelete {
+  background-color: #dc3545;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 7px;
+  border-color: #dc3545;
+}
+.btnDone{
+  background-color: #2bff00;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 7px;
+  border-color: #2bff00;
+}
+.btnEdit {
+  background-color: #ffc107;
+  color: black;
+  border-radius: 5px;
+  padding: 5px 7px;
+  border-color: #ffc107;
+}
